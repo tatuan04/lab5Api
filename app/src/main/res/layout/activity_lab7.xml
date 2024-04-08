@@ -9,6 +9,13 @@
     tools:context=".retrofit1.lab7">
 
     <EditText
+        android:id="@+id/txtPid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="pid"
+        android:inputType="text" />
+
+    <EditText
         android:id="@+id/txtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

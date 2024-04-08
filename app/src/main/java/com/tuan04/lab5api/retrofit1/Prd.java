@@ -1,7 +1,25 @@
 package com.tuan04.lab5api.retrofit1;
 
 public class Prd {
-    private String name, price, desciption;
+    private String pid, name, price, desciption;
+
+    public Prd() {
+    }
+
+    public Prd(String pid, String name, String price, String desciption) {
+        this.pid = pid;
+        this.name = name;
+        this.price = price;
+        this.desciption = desciption;
+    }
+
+    public String getPid() {
+        return pid;
+    }
+
+    public void setPid(String pid) {
+        this.pid = pid;
+    }
 
     public String getName() {
         return name;
@@ -25,14 +43,5 @@ public class Prd {
 
     public void setDesciption(String desciption) {
         this.desciption = desciption;
-    }
-
-    public Prd(String name, String price, String desciption) {
-        this.name = name;
-        this.price = price;
-        this.desciption = desciption;
-    }
-
-    public Prd() {
     }
 }
